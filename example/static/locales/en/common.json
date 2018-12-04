@@ -1,5 +1,6 @@
 {
   "h1": "A simple example",
   "change-locale": "Change locale",
-  "to-second-page": "To second page"
+  "to-second-page": "To second page",
+  "some-icu-string": "You have {numPhotos, plural, =0 {no photos.} =1 {one photo.} other {# photos.}}"
 }

@@ -16,6 +16,9 @@ class Homepage extends React.Component {
         <Link href='/second-page'>
           <a>{t('to-second-page')}</a>
         </Link>
+        <hr/>
+          {t('some-icu-string', { numPhotos: 10 })}
+        <hr/>
         <Footer />
       </React.Fragment>
     )
